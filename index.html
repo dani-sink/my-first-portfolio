@@ -34,10 +34,12 @@
         </div>
     </header>
     <main class="main">
+        
         <section class="intro">
             <div class="container">
+                <img src="assets/profile-pic.jpg" alt="My Profile Photo" class="intro__profile-photo">
                 <h2 class="intro__title">Hi, my name is Jean-Daniel Sinkpon</h2>
-                <h2 class="intro__subtitle">I am a Front End Developer who loves designing user-friendly UI. See my work below.</h2>
+                <h2 class="intro__subtitle">I am a Frontend Developer who is passionate about building clean, responsive, and interactive web experiences. Below are my featured projects.</h2>
             </div>
         </section>
 
@@ -49,8 +51,7 @@
 
                     <div class="gallery__item">
                         <label for="modal-1">
-                            <span class="gallery__image-container" style="display: inline-block; width: 400px; height: 400px; background: url(assets/calculator-demo.gif); background-size: contain; background-repeat: no-repeat;
-                            background-position: center;"></span>
+                            <span class="gallery__image-container" style="background-image: url(./assets/calculator-demo.gif);"></span>
                         </label>
                         <input type="checkbox" class="gallery__modal-checkbox" id="modal-1">
                         <div class="gallery__modal">
@@ -59,7 +60,7 @@
                         </div>
                         <div class="gallery__item-info">
                             <span class="gallery__item-title">Calculator</span>
-                            <a href="https://dani-sink.github.io/project-calculator/" target="u_blank" rel="noopener noreferrer">
+                            <a href="https://dani-sink.github.io/project-calculator/" class="gallery__item-link" target="u_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-up-right-from-square"></i>
                             </a>
                         </div>
@@ -69,8 +70,7 @@
 
                     <div class="gallery__item">
                         <label for="modal-2">
-                            <span class="gallery__image-container" style="display: inline-block; width: 400px; height: 400px; background: url(assets/Etch-a-Sketch.gif); background-size: contain; background-repeat: no-repeat;
-                            background-position: center;"></span>
+                            <span class="gallery__image-container" style="background-image: url(assets/Etch-a-Sketch.gif);"></span>
                         </label>
                         <input type="checkbox" class="gallery__modal-checkbox" id="modal-2">
                         <div class="gallery__modal">
@@ -79,7 +79,7 @@
                         </div>
                         <div class="gallery__item-info">
                             <span class="gallery__item-title">Etch-a-Sketch</span>
-                            <a href="https://dani-sink.github.io/etch-a-sketch/" target="u_blank" rel="noopener noreferrer">
+                            <a href="https://dani-sink.github.io/etch-a-sketch/" class="gallery__item-link" target="u_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-up-right-from-square"></i>
                             </a>
                         </div>
@@ -89,8 +89,7 @@
 
                     <div class="gallery__item">
                         <label for="modal-3">
-                            <span class="gallery__image-container" style="display: inline-block; width: 400px; height: 400px; background: url(assets/query-base.png); background-size: contain; background-repeat: no-repeat;
-                            background-position: center;"></span>
+                            <span class="gallery__image-container" style="background-image: url(assets/query-base.png);"></span>
                         </label>
                         <input type="checkbox" class="gallery__modal-checkbox" id="modal-3">
                         <div class="gallery__modal">
@@ -99,7 +98,7 @@
                         </div>
                         <div class="gallery__item-info">
                             <span class="gallery__item-title">Query Base - FAQ Page</span>
-                            <a href="https://dani-sink.github.io/query-base-faq-page/" target="u_blank" rel="noopener noreferrer">
+                            <a href="https://dani-sink.github.io/query-base-faq-page/" class="gallery__item-link" target="u_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-up-right-from-square"></i>
                             </a>
                         </div>
@@ -111,7 +110,9 @@
         <section class="contact" id="contact">
             <div class="container">
                 <h2 class="contact__title">Contact Me</h2>
-                <p class="contact__description">You can reach out to me via email danielsinkpon@gmail.com</p>
+                <p class="contact__description">You can reach out to me via email: 
+                    <strong>danielsinkpon@gmail.com</strong>
+                </p>
             </div>
         </section>
     </main>
