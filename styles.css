@@ -9,6 +9,7 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    background-color: #fafafa
 }
 
 
@@ -21,7 +22,7 @@ body {
     height: var(--header-height);
     max-height: 102px;
     z-index: 2;
-    background-color: #fff;
+    background-color: #fafafa;
     padding: 10px 0;
     box-shadow: 1px 10px 5px -3px rgba(0,0,0,0.34);
     -webkit-box-shadow: 1px 10px 5px -3px rgba(0,0,0,0.34);
